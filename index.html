@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>델퍼화상상담 개인정보처리방침</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.8;
+    }
+    header {
+      background: #1a73e8;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; margin-bottom: 8px; }
+    header p { font-size: 0.95rem; opacity: 0.85; }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+    }
+    section {
+      background: white;
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #1a73e8;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e8f0fe;
+    }
+    p { margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 0.9rem;
+    }
+    th, td {
+      border: 1px solid #e0e0e0;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    th { background: #f1f6ff; color: #1a73e8; font-weight: 600; }
+    tr:hover td { background: #fafafa; }
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #999;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>델퍼화상상담 개인정보처리방침</h1>
+  <p>최종 업데이트: 2026년 3월 18일</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>1. 개요</h2>
+    <p>델퍼화상상담(이하 "서비스")은 이용자의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 및 관련 법령을 준수합니다.</p>
+    <p>본 방침은 서비스가 수집하는 정보, 사용 방법, 보호 방법에 대해 설명합니다.</p>
+  </section>
+
+  <section>
+    <h2>2. 수집하는 개인정보 항목</h2>
+    <table>
+      <thead>
+        <tr><th>수집 항목</th><th>수집 방법</th><th>이용 목적</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>이메일 주소, 프로필 정보</td><td>Google / 카카오 로그인</td><td>회원 식별 및 인증</td></tr>
+        <tr><td>영상 및 음성 데이터</td><td>화상 상담 중 수집</td><td>실시간 화상 상담 제공</td></tr>
+        <tr><td>기기 푸시 토큰</td><td>앱 실행 시 자동 수집</td><td>푸시 알림 발송</td></tr>
+        <tr><td>앱 이용 로그, 오류 로그</td><td>자동 수집 (Firebase)</td><td>서비스 품질 개선 및 오류 분석</td></tr>
+        <tr><td>업로드한 이미지 및 파일</td><td>이용자 직접 업로드</td><td>상담 서비스 제공</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>3. 앱 권한 사용 목적</h2>
+    <table>
+      <thead>
+        <tr><th>권한</th><th>사용 목적</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>카메라 (CAMERA)</td><td>화상 상담 시 영상 촬영</td></tr>
+        <tr><td>마이크 (RECORD_AUDIO)</td><td>화상 상담 시 음성 송수신</td></tr>
+        <tr><td>저장소 접근</td><td>프로필 사진 및 파일 업로드/저장</td></tr>
+        <tr><td>인터넷 (INTERNET)</td><td>서버 통신, 화상 상담 데이터 전송</td></tr>
+        <tr><td>알림 (POST_NOTIFICATIONS)</td><td>상담 예약, 메시지 푸시 알림</td></tr>
+        <tr><td>포그라운드 서비스</td><td>화상 상담 중 백그라운드 유지</td></tr>
+        <tr><td>네트워크 상태</td><td>연결 상태 확인 및 품질 관리</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>4. 개인정보의 보유 및 이용 기간</h2>
+    <ul>
+      <li>회원 탈퇴 시 즉시 삭제 (단, 관계 법령에 따라 일정 기간 보관이 필요한 경우 예외)</li>
+      <li>영상 및 음성 데이터: 화상 상담 종료 후 서버에 저장되지 않음</li>
+      <li>앱 로그 데이터: 수집 후 최대 90일 보관</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. 제3자 서비스</h2>
+    <p>서비스는 다음의 제3자 서비스를 사용합니다:</p>
+    <ul>
+      <li><strong>Firebase (Google)</strong> - 인증, 데이터베이스, 푸시 알림, 분석, 오류 수집</li>
+      <li><strong>카카오</strong> - 소셜 로그인 인증</li>
+      <li><strong>Google Sign-In</strong> - 소셜 로그인 인증</li>
+    </ul>
+    <p>각 서비스의 개인정보처리방침은 해당 서비스 제공자의 정책을 따릅니다.</p>
+  </section>
+
+  <section>
+    <h2>6. 개인정보의 안전성 확보 조치</h2>
+    <ul>
+      <li>모든 데이터 전송은 HTTPS/TLS 암호화 통신 사용</li>
+      <li>Firebase Security Rules를 통한 접근 권한 제어</li>
+      <li>최소한의 권한 원칙에 따른 데이터 수집</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. 이용자의 권리</h2>
+    <p>이용자는 언제든지 다음 권리를 행사할 수 있습니다:</p>
+    <ul>
+      <li>개인정보 열람, 수정, 삭제 요청</li>
+      <li>회원 탈퇴를 통한 개인정보 삭제</li>
+      <li>개인정보 처리에 대한 동의 철회</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. 아동의 개인정보 보호</h2>
+    <p>본 서비스는 만 14세 미만 아동을 대상으로 하지 않으며, 만 14세 미만 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+  </section>
+
+  <section>
+    <h2>9. 개인정보 보호책임자 및 문의</h2>
+    <p>개인정보 처리에 관한 문의사항은 아래로 연락주시기 바랍니다:</p>
+    <ul>
+      <li><strong>서비스명:</strong> 델퍼화상상담</li>
+      <li><strong>이메일:</strong> jun-young-woo@delper.app</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>10. 개인정보처리방침 변경</h2>
+    <p>본 방침은 법령 또는 서비스 변경에 따라 업데이트될 수 있으며, 변경 시 앱 내 공지 또는 본 페이지를 통해 안내합니다.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 델퍼화상상담. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
